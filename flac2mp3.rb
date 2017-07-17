@@ -40,7 +40,7 @@ if( ARGV.length == 0 )
     files.push(f);
     printf("  %s\n", f);
   }
-else if( ARGV.length == 1 )
+elsif( ARGV.length == 1 )
   dstDir= ARGV[0];
   while (str= STDIN.gets)
     break if (str.chomp() == ".")
